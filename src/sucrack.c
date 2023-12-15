@@ -109,12 +109,12 @@ main(int argc, char **argv)
     int o, ssec, ansi, wnum, bsize, rewr;
     unsigned int rules;
     int read_from_stdin;
-
+/*
     if ((getuid() | getgid()) == 0) {
 	printf("yah, verry funny!\n");
 	return 0;
     }
-
+*/
     /* initial values */
     dfile = 0;
     user = 0;
