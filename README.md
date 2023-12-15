@@ -13,7 +13,7 @@ sucrack is so far known to be running on FreeBSD, NetBSD, Linux.
  ## Installation
 
 ```
-./configure --enable-static-linked
+./configure --enable-static-linked --enable-statistics
 make
 make install
 ```
